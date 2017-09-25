@@ -1,0 +1,3 @@
+#Crontab 
+0 2 * * * /root/av-s3-backup.sh > /tmp/s3.log
+0 4 */10 * * /root/av-s3-rawlog-backup-complete-hourly.sh > /tmp/s3-raw.log
